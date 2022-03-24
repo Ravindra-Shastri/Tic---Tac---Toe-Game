@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  text-align: center;
+  color:rgb(179, 29, 61);
+  padding-top: 4rem;
+  font-style: italic;
+}
+.square-font{
+  color: rgb(0, 58, 167);
+  font-weight:900;
+}
+.board-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 8rem;
+  height: 8rem;
+  font-size:4rem ;
+  color:rgb(0, 58, 167);
+  border: 2px solid rgb(112, 25, 25);
+}
+.game{
+  width: 26rem; 
+  height: 26rem; 
+  color: rgb(0, 255, 234);
+  background-color: rgb(155, 154, 154);
+  font-size: 1.8rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  padding-bottom: 3.3rem;
+  padding-top: 1.2rem;
+  margin-top: 4rem;
+  border: 2px solid rgb(2, 247, 255);
+  box-shadow: 0rem 0rem .1rem 4rem rgb(78, 65, 78) ;
+  border-radius: .4rem;
+}
+.game-board{
+  text-align: center;
+  border-radius: .4rem;
+}
+
